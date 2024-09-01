@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body background="images/banner.png">
+	<div class="wrapper">
+    <form name="formLogin" method="post" action="TeacherLogin.php">
+      <h1>Login</h1>
+      <div class="inputBox">
+        <input type="text" name="textUserName" placeholder="Username" required>
+        <i class='bx bxs-user'></i>
+      </div>
+      <div class="inputBox">
+        <input type="password" name="textPassword" placeholder="Password" required>
+        <i class='bx bxs-lock-alt'></i>
+      </div>
+      <div class="rememberForgot">
+        <label><input type="checkbox">Remember Me</label>
+        <a href="#">Forgot Password</a>
+      </div>
+      <input type="submit" class="buttonLogin" value="Login">
+    </form>
+  </div>
+</body>
+</html>
